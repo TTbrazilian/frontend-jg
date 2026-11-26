@@ -1,0 +1,11 @@
+{
+  "port": 4180,
+  "runs": 3,
+  "profiles": ["mobile", "desktop"],
+  "pages": [
+    { "name": "inicio", "path": "/" },
+    { "name": "detalhe", "path": "/nft/nft-001" }
+  ],
+  "targets": { "performance": 90, "accessibility": 95, "bestPractices": 95, "seo": 90 },
+  "notes": "Mobile = preset padrão do Lighthouse (Moto G Power, 4x CPU slowdown, Slow 4G simulado). Desktop = desktop-config (sem throttling de CPU, conexão cabeada simulada)."
+}

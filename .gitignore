@@ -1,0 +1,12 @@
+node_modules
+dist
+*.local
+.env
+.env.*.local
+test-results
+_to_delete
+
+blob-report
+playwright/.cache
+lighthouse-reports/tmp
+.DS_Store
