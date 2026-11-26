@@ -58,7 +58,7 @@ Skeleton com shimmer (`.skeleton`, 1.6s linear). `prefers-reduced-motion` deslig
 | Átomo | Input, Textarea, Label (`required` → asterisco coral + "(obrigatório)" para leitor de tela) | `ui/input.tsx`… | |
 | Átomo | Badge (`RARO`, status) | `ui/badge.tsx` | |
 | Átomo | Skeleton | `ui/skeleton.tsx` | preserva dimensões do conteúdo |
-| Átomo | Ícones Iconly exportados do Figma (`currentColor`) | `components/icons` | gerado por `scripts/build-icons.py` |
+| Átomo | Ícones Iconly exportados do Figma (`currentColor`) | `components/icons` | SVGs exportados do Figma convertidos em componentes React |
 | Molécula | FormField (label + controle + erro `aria-describedby` + `aria-invalid`) | `ui/form-field.tsx` | |
 | Molécula | Select, RadioGroup (anel laranja), Checkbox (círculo), Tabs (sublinhado) | `ui/*` | Radix + tokens |
 | Organismo | Dialog (borda inferior laranja 8px, como os modais do Figma), Sheet (drawer de filtros mobile) | `ui/dialog.tsx`, `ui/sheet.tsx` | foco preso e devolvido pelo Radix |
@@ -67,7 +67,7 @@ Skeleton com shimmer (`.skeleton`, 1.6s linear). `prefers-reduced-motion` deslig
 ## Assets
 - 4 artes de NFT do Figma (1254px) → `public/images/nfts/nft-{1..4}.webp` (900px) e `-480.webp`.
 - Avatares derivados das mesmas artes → `public/images/avatars/avatar-{1..4}.webp`.
-- Logo/wordmark KURIO → `components/icons` (`LogoWordmark`) e `public/images/brand/`.
+- Logo/wordmark KURIO → `components/icons` (`LogoWordmark`).
 - Ícone "Thank you" do recibo → `ThankYouIcon`.
 
 ## Mapa de telas (Figma → rota)

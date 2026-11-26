@@ -134,6 +134,6 @@ src/
   mocks/          MSW: seed, store, serviços, handlers, cenários, Socket.IO
   styles/         tokens do design system (Tailwind v4)
 e2e/              Playwright (specs, fixtures, baselines visuais)
-scripts/          lighthouse.mjs, build-icons.py
+scripts/          lighthouse.mjs (auditoria Lighthouse)
 docs/             design system, logs
 ```

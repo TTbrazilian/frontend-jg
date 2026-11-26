@@ -1,4 +1,4 @@
-/* Gerado por scripts/build-icons.py a partir dos SVGs exportados do Figma (Iconly + marca Kurio). Não editar à mão. */
+/* Ícones exportados do Figma (Iconly + marca Kurio) como componentes React com currentColor. */
 import type { SVGProps } from 'react'
 
 export type IconProps = SVGProps<SVGSVGElement> & { title?: string }
