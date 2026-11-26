@@ -1,0 +1,4 @@
+lighthouse-reports/** linguist-generated=true
+playwright-report/** linguist-generated=true
+public/mockServiceWorker.js linguist-vendored=true
+e2e/__screenshots__/** linguist-generated=true
