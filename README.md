@@ -8,7 +8,7 @@ Toda a API (REST) e o tempo real (Socket.IO) são **simulados na camada de rede 
 
 | Entrega | Link |
 |---|---|
-| Aplicação publicada | **https://frontend-jg.vercel.app** _(atualizar após o deploy)_ |
+| Aplicação publicada | **https://frontend-jg.vercel.app** |
 | Repositório | https://github.com/TTbrazilian/frontend-jg |
 | Relatório E2E (HTML) | `playwright-report/index.html` (`pnpm test:report`); traces de falhas em `test-results/` |
 | Relatórios Lighthouse | `lighthouse-reports/` (HTML + JSON por execução, `SUMMARY.md`, `summary.json` com versões e ambiente) |
